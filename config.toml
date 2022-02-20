@@ -1,25 +1,27 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'Nina Jensen | CV'
+title = 'Nina Jensen'
+enableEmoji = true
 
-[Params]
+[params]
+  custom_css = ["css/iosevka.css", "css/iosevka-aile.css", "css/iosevka-etoile.css"]
 
-  [Params.Navbar]
+  [params.navbar]
   use = false
   
-  [Params.Extensions]
+  [params.extensions]
   use = true
   ext = ".txt" # extension to add after single page
     
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
   description = ""
-  [Params.Terminal]
-  scheme = "Nord"
+  [params.terminal]
+  scheme = "OceanDark"
 
   userName = "nina"
   pcName = "jensen"
-  workDir = "mydir"
-  profile = "hello.txt"
+  workDir = ""
+  profile = "hello.md"
 
   ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
   stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
@@ -30,16 +32,21 @@ title = 'Nina Jensen | CV'
   contentDelay = 0 
   description = "/hello.md"
 
-  # Note: If you want to use a Markdown file, you can use the following
-  # description = "/description.md"
-  # Note: and put the description.md in /content/description.md
-
-  [Params.Tree]
+  [params.tree]
   use = true
   folderName = "index"
   files = [ 
-    ["curriculum-vitae", "https://www.example.com/"],
-    ["skills", "https://www.example.com/"],
-    ["contributions", "https://golang.org/"],
-    ["interests", "/post/some-activity.md"],
+    ["curriculum-vitae", "/cv.md"],
+    ["skills", "/skills.md"],
+    ["contributions", "/contributions.md"],
+    ["interests", "/interests.md"],
+  ]
+  [params.tree2]
+  use = true
+  folderName = "index"
+  files = [ 
+    ["curriculum-vitae", "/cv.md"],
+    ["skills", "/skills.md"],
+    ["contributions", "/contributions.md"],
+    ["interests", "/interests.md"],
   ]
