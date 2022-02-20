@@ -1,0 +1,45 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Nina Jensen | CV'
+
+[Params]
+
+  [Params.Navbar]
+  use = false
+  
+  [Params.Extensions]
+  use = true
+  ext = ".txt" # extension to add after single page
+    
+  # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+  description = ""
+  [Params.Terminal]
+  scheme = "Nord"
+
+  userName = "nina"
+  pcName = "jensen"
+  workDir = "mydir"
+  profile = "hello.txt"
+
+  ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 50 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+
+  titleDelay = 0 
+  contentDelay = 0 
+  description = "/hello.md"
+
+  # Note: If you want to use a Markdown file, you can use the following
+  # description = "/description.md"
+  # Note: and put the description.md in /content/description.md
+
+  [Params.Tree]
+  use = true
+  folderName = "index"
+  files = [ 
+    ["curriculum-vitae", "https://www.example.com/"],
+    ["skills", "https://www.example.com/"],
+    ["contributions", "https://golang.org/"],
+    ["interests", "/post/some-activity.md"],
+  ]
