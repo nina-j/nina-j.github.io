@@ -37,16 +37,6 @@ enableEmoji = true
   folderName = "index"
   files = [ 
     ["curriculum-vitae", "/cv.md"],
-    ["skills", "/skills.md"],
-    ["contributions", "/contributions.md"],
-    ["interests", "/interests.md"],
-  ]
-  [params.tree2]
-  use = true
-  folderName = "index"
-  files = [ 
-    ["curriculum-vitae", "/cv.md"],
-    ["skills", "/skills.md"],
     ["contributions", "/contributions.md"],
     ["interests", "/interests.md"],
   ]
