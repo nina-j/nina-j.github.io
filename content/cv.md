@@ -2,6 +2,12 @@
 title: Curriculum Vitae
 ---
 
+## Technical skills
+
+Python · GraphQL · Property-based testing · Linux (daily driver) · Docker · Git · SQL · PostgreSQL · Bash/Fish/shell scripting 
+
+And probably more! 
+
 ## Experience
 
 ### _2021-now_ · Open Source Developer, Magenta ApS
