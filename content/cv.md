@@ -2,13 +2,22 @@
 title: Curriculum Vitae
 ---
 
+## Technical skills
+
+Python · GraphQL · Property-based testing · Linux (daily driver) · Docker · Git · SQL · PostgreSQL · Bash/Fish/shell scripting 
+
+And probably more! 
+
 ## Experience
 
-### _2021-now_ · Open Source Developer, Magenta
-Description coming Soon :tm:
+### _2021-now_ · Open Source Developer, Magenta ApS
+
+Development of [OS2mo/OS2gir](https://www.magenta.dk/magenta-products/os2mo-workflows-people-organisation/), an open source global identity repository. Main responsibilities include planning and development of a new GraphQL based API intended to surpass the current REST API. Primary technologies include [FastAPI](https://fastapi.tiangolo.com/), pytest, [Strawberry](https://strawberry.rocks/), Pydantic, and PostgreSQL. CI/CD done via Gitlab, Flux, Helm and Salt. 
+Planning and hosting of lightning talks as part of a cross-company project group to facilitate knowledge sharing across teams.
+
+See also [my contributions]({{< relref "contributions" >}}).
 
 ### _2019-2021_ · Software Developer, Aarhus Stadsarkiv
-
 Identification and conversion of digital records using tools developed in Python. Managing records across various systems using MS Azure powered PostgreSQL instances. Implementation of new APIs using [FastAPI](https://fastapi.tiangolo.com/). Setup and maintenance of CI/CD using [GitHub Actions](https://github.com/features/actions). Development of various QoL scripts.
 
 ### _2017-2018_ · Student Worker, BI & Reporting, Energi Danmark

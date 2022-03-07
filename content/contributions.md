@@ -12,3 +12,8 @@ title: Contributions
 
 [CVE-2021-29510](https://github.com/advisories/GHSA-5jqp-qgf6-3pvh):
 Use of "infinity" as an input to datetime and date fields causes infinite loop in Pydantic. 
+
+## OS2mo
+[Repository](https://github.com/OS2mo/os2mo/)
+
+[Commits](https://github.com/OS2mo/os2mo/commits?author=nina-j): Primarily a new GraphQL API.
