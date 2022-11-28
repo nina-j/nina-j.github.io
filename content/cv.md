@@ -4,13 +4,17 @@ title: Curriculum Vitae
 
 ## Technical skills
 
-Python · GraphQL · Property-based testing · Linux (daily driver) · Docker · Git · SQL · PostgreSQL · Bash/Fish/shell scripting 
+Python · Terraform · Google Cloud Platform · Docker · Git · GraphQL · Property-based testing · Linux (daily driver) · SQL · PostgreSQL · Bash/Fish/shell scripting 
 
 And probably more! 
 
 ## Experience
 
-### _2021-now_ · Open Source Developer, Magenta ApS
+### _2022-Now_ · Data Engineer, Lunar A/S
+Development of a new data platform on Google Cloud Platform, including migration of previous platform from AWS. Main responsibilities include data pipelining via Cloud Functions in Python, planning and development of infrastructure via Terraform, and setting up continuous integration with Cloud Build and GitHub Actions. 
+Biggest achievement by far was backfilling production data from AWS to GCP in 32 hours with 0 errors. 
+
+### _2021-2022_ · Open Source Developer, Magenta ApS
 
 Development of [OS2mo/OS2gir](https://www.magenta.dk/magenta-products/os2mo-workflows-people-organisation/), an open source global identity repository. Main responsibilities include planning and development of a new GraphQL based API intended to surpass the current REST API. Primary technologies include [FastAPI](https://fastapi.tiangolo.com/), pytest, [Strawberry](https://strawberry.rocks/), Pydantic, and PostgreSQL. CI/CD done via Gitlab, Flux, Helm and Salt. 
 Planning and hosting of lightning talks as part of a cross-company project group to facilitate knowledge sharing across teams.
