@@ -3,17 +3,18 @@ title: Interests
 ---
 
 ### Professionally, I enjoy 🤓
-- Working with data
-- GraphQL
+- Data engineering
 - Python
+- GraphQL
 - Working in a Linux environment
+- Serverless architecture 
 
 ### I want to learn (more about) 📖
 - Go
 - Rust
 - Kubernetes
 - Elixir
-- Data engineering in general
+- Data mesh
 
 ### I love 💜
 - My cat
@@ -21,3 +22,4 @@ title: Interests
 - Boardgames, especially deckbuilding
 - Black & doom metal 
 - Plants 
+- Long walks in the woods
