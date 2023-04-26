@@ -4,19 +4,22 @@ title: Curriculum Vitae
 
 ## Technical skills
 
-Python · Terraform · Google Cloud Platform · Docker · Git · GraphQL · Property-based testing · Linux (daily driver) · SQL · PostgreSQL · Bash/Fish/shell scripting 
+Python · Terraform · Google Cloud Platform · Docker · Git · BigQuery · GraphQL · Property-based testing · Linux (daily driver) · SQL · PostgreSQL · MySQL · Bash/Fish/shell scripting
 
-And probably more! 
+And probably more!
 
 ## Experience
 
-### _2022-Now_ · Data Engineer, Lunar A/S
-Development of a new data platform on Google Cloud Platform, including migration of previous platform from AWS. Main responsibilities include data pipelining via Cloud Functions in Python, planning and development of infrastructure via Terraform, and setting up continuous integration with Cloud Build and GitHub Actions. 
-Biggest achievement by far was backfilling production data from AWS to GCP in 32 hours with 0 errors. 
+### _2023-Now_ · Data Engineer, Boozt
+Development and maintenance of data pipelines and lakes on Google Cloud Platform. Main responsibilities include development of new ingestion services, data lake architecture and restructuring, Airflow maintenance, and improvements to data science and analysis workflows. Primary technologies include BigQuery, Python, Airflow, Airbyte, Kubernetes, Terraform, and GitLab.
+
+### _2022-2023_ · Data Engineer, Lunar A/S
+Development of a new data platform on Google Cloud Platform, including migration of previous platform from AWS. Main responsibilities include data pipelining via Cloud Functions in Python, planning and development of infrastructure via Terraform, and setting up continuous integration with Cloud Build and GitHub Actions.
+Biggest achievement by far was backfilling production data from AWS to GCP in 32 hours with 0 errors.
 
 ### _2021-2022_ · Open Source Developer, Magenta ApS
 
-Development of [OS2mo/OS2gir](https://www.magenta.dk/magenta-products/os2mo-workflows-people-organisation/), an open source global identity repository. Main responsibilities include planning and development of a new GraphQL based API intended to surpass the current REST API. Primary technologies include [FastAPI](https://fastapi.tiangolo.com/), pytest, [Strawberry](https://strawberry.rocks/), Pydantic, and PostgreSQL. CI/CD done via Gitlab, Flux, Helm and Salt. 
+Development of [OS2mo/OS2gir](https://www.magenta.dk/magenta-products/os2mo-workflows-people-organisation/), an open source global identity repository. Main responsibilities include planning and development of a new GraphQL based API intended to surpass the current REST API. Primary technologies include [FastAPI](https://fastapi.tiangolo.com/), pytest, [Strawberry](https://strawberry.rocks/), Pydantic, and PostgreSQL. CI/CD done via Gitlab, Flux, Helm and Salt.
 Planning and hosting of lightning talks as part of a cross-company project group to facilitate knowledge sharing across teams.
 
 See also [my contributions]({{< relref "contributions" >}}).
@@ -36,9 +39,9 @@ Analysis of financial statements to provide assurance regarding fraud risk. Auto
 ## Education
 
 ### _2017-2019_ · MSc, Computer Engineering, Aarhus University
-Software engineering and distributed systems as specialisation. Electives focused on modelling and data analysis. 
+Software engineering and distributed systems as specialisation. Electives focused on modelling and data analysis.
 
-Master's thesis: "_Clustering Attributed Networks: Examining how clustering information impacts attributed network embeddings_". 
+Master's thesis: "_Clustering Attributed Networks: Examining how clustering information impacts attributed network embeddings_".
 
 Favourite courses include Advanced Data Management & Analysis, Decision Support Systems, Distributed & Pervasive Systems, Programming Language Paradigms, and Specification of IT Systems.
 
