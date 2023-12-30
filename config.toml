@@ -16,7 +16,7 @@ enableEmoji = true
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
   description = ""
   [params.terminal]
-  scheme = "OceanDark"
+  scheme = "Dracula"
 
   userName = "nina"
   pcName = "jensen"
