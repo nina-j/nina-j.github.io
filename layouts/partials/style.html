@@ -18,7 +18,7 @@
     
     {{ $terminal_style := resources.Get "sass/white.scss" }}
    
-    {{ $themeData := getJSON "https://raw.githubusercontent.com/Mayccoll/Gogh/master/data/themes.json" }}
+    {{ $themeData := getJSON "https://raw.githubusercontent.com/Gogh-Co/Gogh/1bcd4e13564ab72108389ffe70e90845a45c31f7/data/themes.json" }}
     {{ range $t := $themeData.themes }}
         {{if eq $t.name $.Site.Params.Terminal.scheme }}
             {{$terminal_style = printf "body{background:%s}body #terminal{color:%s}body #user{color:%s}body #dir{color:%s}body .Typewriter__cursor{color:%s}a{color:%s}" $t.background $t.cursorColor $t.blue $t.purple $t.cursorColor $t.cursorColor | safeCSS }}
