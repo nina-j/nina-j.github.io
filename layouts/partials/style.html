@@ -1,12 +1,10 @@
 <style>
-    
     {{ if .IsHome }}
     {{- $default_style := resources.Get "sass/default.scss" | resources.ToCSS -}}
     {{- $default_style.Content | safeCSS -}}
     body {
         font-family: "Iosevka Web";
     }
-    
     {{ else }}
     {{- $activity_style := resources.Get "sass/activity.scss" | resources.ToCSS | minify -}}
     {{- $activity_style.Content | safeCSS -}}
@@ -17,47 +15,18 @@
     {{ end }}
     
     {{ $terminal_style := resources.Get "sass/white.scss" }}
-   
+    {{/*  {{ with (eq .Site.Params.Terminal.scheme "monokai") }} {{- $terminal_style = resources.Get "sass/monokai.scss" | resources.ToCSS | minify -}} {{ end }}  */}}
+    {{/*  {{ with (eq .Site.Params.Terminal.scheme "goph") }} {{- $terminal_style = resources.Get "sass/goph.scss" | resources.ToCSS | minify -}} {{ end }}  */}}
+    
+    {{/*  Assume that ubuntu and retro do not exist in gogh.  */}}
     {{ $themeData := getJSON "https://raw.githubusercontent.com/Gogh-Co/Gogh/1bcd4e13564ab72108389ffe70e90845a45c31f7/data/themes.json" }}
     {{ range $t := $themeData.themes }}
         {{if eq $t.name $.Site.Params.Terminal.scheme }}
-            {{$terminal_style = printf "body{background:%s}body #terminal{color:%s}body #user{color:%s}body #dir{color:%s}body .Typewriter__cursor{color:%s}a{color:%s}" $t.background $t.cursorColor $t.blue $t.purple $t.cursorColor $t.cursorColor | safeCSS }}
+            {{ $terminal_style = printf "body{background:%s}body #terminal{color:%s}body #user{color:%s}body #dir{color:%s}body .Typewriter__cursor{color:%s}a{color:%s}" $t.background $t.cursor $t.color_06 $t.color_05 $t.cursor $t.cursor | safeCSS }}
         {{ end }}
     {{ end }}
     
+    {{/*  {{- $terminal_style.Content | safeCSS -}}  */}}
     {{ $terminal_style | safeCSS }}
     
-
-    #content::after {
-        content: "\a\a";
-        white-space: pre;
-    }
-
-    .navFull {
-        background-color: #353535;
-        font-family: "Iosevka Web";
-        font-size: 17px;
-        display: inline;
-        position: fixed;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        padding-top: 5px;
-        padding: 10px;
-        padding-bottom: 0px;
-    }
-
-    .navCredits {
-        float: right;
-        padding-right: 18px;
-        padding-bottom: 10px;
-        padding-top: 5px;
-    }
-
-
-            
-            
     </style>
-    
-    
-    

@@ -5,9 +5,6 @@ enableEmoji = true
 
 [params]
   custom_css = ["css/iosevka.css", "css/iosevka-aile.css", "css/iosevka-etoile.css"]
-
-  [params.navbar]
-  use = false
   
   [params.extensions]
   use = true
@@ -16,7 +13,7 @@ enableEmoji = true
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
   description = ""
   [params.terminal]
-  scheme = "Dracula"
+  scheme = "Tokyo Night"
 
   userName = "nina"
   pcName = "jensen"
