@@ -2,6 +2,11 @@
 title: Contributions
 ---
 
+## Dagster
+[Repository](https://github.com/dagster-io)
+
+[Commits](https://github.com/dagster-io/dagster/commits?author=nina-j): Fixes to a now deprecated Airbyte API integration.
+
 ## Strawberry GraphQL
 [Repository](https://github.com/strawberry-graphql/strawberry)
 
