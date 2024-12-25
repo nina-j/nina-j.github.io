@@ -11,7 +11,7 @@ And probably more!
 ## Experience
 
 ### _2023-Now_ · Data Engineer, Boozt
-Development and maintenance of data pipelines and lakes on Google Cloud Platform. Main responsibilities include development of new ingestion services, data lake architecture and restructuring, Airflow maintenance, and improvements to data science and analysis workflows. Primary technologies include BigQuery, Python, Airflow, Airbyte, Kubernetes, Terraform, and GitLab.
+Development and maintenance of data pipelines and lakes on Google Cloud Platform. The data lakes have approximately 3 petabytes in flight per month. Main responsibilities include development of new ingestion services, data monitoring, data lake architecture and restructuring, Airflow maintenance, and improvements to data science and analysis workflows. Primary technologies include BigQuery, Python, Airflow, Airbyte, Kubernetes, Terraform, and GitLab. Significant achievements include full migration from Dataform to dbt and implementing a new data lake architecture, including data monitoring and new ingestion systems. 
 
 ### _2022-2023_ · Data Engineer, Lunar A/S
 Development of a new data platform on Google Cloud Platform, including migration of previous platform from AWS. Main responsibilities include data pipelining via Cloud Functions in Python, planning and development of infrastructure via Terraform, and setting up continuous integration with Cloud Build and GitHub Actions.
